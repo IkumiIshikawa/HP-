@@ -1,0 +1,247 @@
+@charset "UTF-8";
+
+.header_wrapper {
+   width: 100%;
+}
+.header_inner {
+   width: 100%;
+   text-align: center;
+}
+.header_ttl {
+   display: flex;
+   align-items: center;
+   width: 80%;
+   margin: 5% auto 0 auto;
+}
+.header_ttl h1 {
+   font-size: 5em;
+   color: rgb(99, 94, 94);
+}
+.header_inner img {
+   width: 20%;
+   height: 20%;
+}
+.header_inner nav ul {
+   display: flex;
+   justify-content: space-around;
+   padding: 5%;
+   background: #FFF;
+   margin: 0 1% 5% 1%;
+}
+.header_inner nav ul li {
+   font-size: 1.5em;
+    font-weight: bold;
+    padding: 0 3%;
+}
+.header_inner nav ul li small {
+   font-size: 0.7em;
+}
+.header_inner nav ul li::before {
+   content: "";
+   display: block;
+   width: 0.5em;
+   height: 0.5em;
+   background-color: #17A73B;
+   position: relative;
+   transform: rotate(45deg);
+   bottom: -50%;
+   left: -35%;
+}
+
+.top_inner {
+   width: 80%;
+   margin: 0 auto 5% auto;
+   position: relative;
+}
+.top_inner img {
+   width: 100%;
+   height: auto;
+}
+.top_title {
+   position: absolute;
+   text-align: center;
+   line-height: 1;
+   top: -5%;
+   left: 10%;
+}
+.top_title h1 {
+   font-size: 5.5em;
+   color: #17A73B;
+}
+.top_title h2 {
+   font-size: 5em;
+}
+.top_title p {
+   font-size: 3em;
+   line-height: 3.5;
+   color: #777;
+   position: relative;
+}
+
+/* news */
+.news {
+   text-align: center;
+   display: block;
+   margin: unset;
+}
+.news_flex{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.news .ttl {
+   margin-right: 10%;
+}
+.news_list {
+   text-align: left;
+   display: inline-block;
+   margin: 2.5% 0;
+}
+.news_list li {
+   font-size: 1.2em;
+   line-height: 2;
+   color: #333;
+}
+
+/* feature */
+.feature {
+   display: flex;
+  flex-direction: column-reverse;
+}
+.feature_block_1 {
+   position: absolute;
+   top: 80%;
+   background: #fff;
+   height: 30em;
+   width: 70%;
+   display: flex;
+   align-items: center;
+   border-bottom: 3px solid #17A73B;
+   border-left: 3px solid #17A73B;
+   margin-left: 5%;
+}
+.feature_imgs {
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   position: absolute;
+}
+.feature_img {
+   width: 30%;
+}
+.feature_img img {
+   width: 100%;
+   height: 100%;
+}
+.feature_block_2 {
+   position: relative;
+   bottom: 5em;
+   margin-top: 10%;
+}
+.feature_block_2 small {
+   font-size: 0.5em;
+}
+.feature_block_2_wrapper {
+   position: relative;
+   width: 40%;
+   margin-left: auto;
+   margin-right: 5%;
+   border-top: 3px solid #17A73B;
+   border-right: 3px solid #17A73B;
+   background: #fff;
+   height: auto;
+   padding: 5%;
+}
+.feature_txt {
+   margin: 10%;
+}
+
+/* service */
+.service {
+ margin-top: 35%;
+}
+
+.ttl {
+   display: inline-block;
+   background: #fff;
+   padding: 3%;
+   margin: 3%;
+}
+.service_bg {
+   background-image: url(../img/service_bg.png);
+   background-size: cover;
+   margin: 0 0 5%;
+   padding: 5% 0;
+}
+.service_item_wrapper {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.service_item {
+   width: 25%;
+   background-color: rgba(255, 255, 255, 0.5);
+   padding: 2.5%;
+   margin-bottom: 2.5%;
+}
+.service_item img {
+   width: 100%;
+   height: 100%;
+}
+.service_txt_wrapper {
+   padding: 5%;
+}
+.service_txt_wrapper h4 {
+   font-size: 2em;
+   font-weight: bold;
+   line-height: 1;
+}
+.service_txt_wrapper small {
+   font-size: 0.5em;
+   color: #17A73B;
+}
+.service_txt_wrapper p {
+   text-align: left;
+}
+
+/* recruit */
+.recruit_wrapper {
+   display: flex;
+   align-items: center;
+}
+.recruit_txt_wrapper {
+   width: 40%;
+   margin: 0 auto;
+}
+.recruit_txt_wrapper h3 {
+   padding-bottom: 7.5%;
+}
+.recruit_txt_wrapper h4 {
+   padding-bottom: 5%;
+   font-size: 1.5em;
+   font-weight: bold;
+}
+.recruit_txt_wrapper p {
+   padding-bottom: 10%;
+}
+.recruit_btn {
+   margin: unset;
+   width: 40%;
+}
+.recruit_img_wrapper {
+   width: 40%;
+}
+.recruit_img_wrapper img {
+   width: 100%;
+   height: 100%;
+}
+.recruit_bg {
+   position: absolute;
+   background: #fff;
+   height: 38em;
+   width: 70%;
+   bottom: -10%;
+   z-index: -1;
+}
+
+/* footer */
